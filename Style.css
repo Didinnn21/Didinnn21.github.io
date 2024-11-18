@@ -7,9 +7,33 @@
    background-image: url('Images/Background.jpg');
    background-size: cover;
    background-position: center;
-   padding: 50px 0;
+   padding: 130px 0;
    color: white;
 }
-html {
+
+.navbar {
+   transition: background-color 0.5s, box-shadow 0.5s;
+}
+
+.navbar:hover {
+   background-color: #0056b3;
+   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.nav-link {
+   transition: color 0.3s, transform 0.3s;
+}
+
+.nav-link:hover {
+   color: #ffd700;
+   transform: scale(1.1);
+}
+
+.nav-link.active {
+   font-weight: bold;
+   color: #ffd700;
+}
+
+.html {
    scroll-behavior: smooth;
 }
