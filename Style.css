@@ -1,0 +1,12 @@
+.jumbotron {
+   padding-top: 2rem;
+   background-color:#e2edff; 
+}
+
+.custom-jumbotron {
+   background-image: url('Images/background.jpg');
+   background-size: cover;
+   background-position: center;
+   padding: 50px 0;
+   color: white;
+}
